@@ -142,20 +142,6 @@
   border: none;
 }
 
-/* .recipes__iframe_aero {
-  width: 560px;
-  height: 315px;
-  border: none;
-}
-
-.recipes__iframe_french {
-  width: 560px;
-  height: 315px;
-  border: none;
-}
-
-*/
-
 .recipes__caption {
   margin: 24px 0 215px;
   font-family: "Inter", Arial, sans-serif;
@@ -165,6 +151,109 @@
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+}
+
+.reservation {
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  color: #000;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.reservation__form {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.form__fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form__label {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+}
+
+.form__input {
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 15px 20px;
+  margin: 8px 0 32px;
+  border: 1px solid #838383;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  color: #000;
+}
+
+.form__input::placeholder {
+  color: #838383;
+}
+
+.form__button {
+  margin: 0;
+  padding: 20px 0;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #1878dc;
+  color: #fff;
+  transition: background-color 0.5s ease;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
+
+.form__label_type_checkbox {
+  margin: 32px 0 0;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  appearance: none;
+  background-color: #1878dc;
+}
+
+.form__checkbox:checked {
+  background-image: url(../images/check.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .footer {
