@@ -16,3 +16,7 @@ This is the second project of the fulltime Software Engineering program at Tripl
 One change I would make is having the terms agreement when booking a table come before the submit button, but that is just me disagreeing with the design brief.
 
 A cool feature that could be added is having the small circles animated, rotating around the bigger circles -- like seats moving around a table.
+
+## View the project:
+
+[Triple Espresso](https://kitcotros.github.io/se_project_coffeeshop-ft/)
